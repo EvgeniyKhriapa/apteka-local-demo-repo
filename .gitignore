@@ -1,0 +1,25 @@
+# Згенеровані локально дані та звіти — не мають потрапляти в git
+scripts/pharmacy_demo.db
+reports/*.md
+reports/*.html
+!reports/.gitkeep
+
+# Секрети (на майбутнє, якщо репозиторій розширять реальними джерелами
+# з оригінального проєкту apteka-g24-reports — OpenCart/Google/Meta/Telegram)
+.env
+*/.env
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

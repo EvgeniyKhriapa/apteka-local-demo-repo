@@ -1,0 +1,13 @@
+# Поточна версія проєкту (локальне демо без Telegram і без зовнішніх API)
+# використовує ВИКЛЮЧНО стандартну бібліотеку Python 3.10+:
+#   sqlite3, datetime, pathlib, random, sys
+# Тому встановлювати нічого не потрібно — цей файл існує для сумісності
+# з інструментами (PyCharm, CI) і як місце для залежностей, якщо репозиторій
+# у майбутньому підключать до реальних джерел з оригінального проєкту
+# apteka-g24-reports (розкоментуйте потрібне):
+#
+# pymysql==1.2.0                 # підключення до реальної MySQL/OpenCart
+# python-telegram-bot==22.8      # розсилка звіту в Telegram
+# google_api_python_client==2.199.0  # GA4 / Search Console
+# openpyxl==3.1.5                # імпорт вигрузок з 1С (.xlsx)
+# Requests==2.34.2               # Facebook/Meta Ads, Google Ads (сирий REST)
